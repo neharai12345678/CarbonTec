@@ -7,7 +7,10 @@ from win10toast_click import ToastNotifier
 from CarbonFootPrintGraph import *
 from CarbonFootPrintWebPage import *
 from SustainabilityPage import *
+from Repository import *
 if __name__ == '__main__':
+	data=ConnectRegistery();
+	print(data);
 	toaster = ToastNotifier()
 	toaster.show_toast(
 		"**Your Carbon foot print!!",
