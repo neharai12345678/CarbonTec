@@ -15,7 +15,7 @@ if __name__ == '__main__':
 	toaster.show_toast(
 		"**Your Carbon foot print!!",
 		"A carbon footprint is the total greenhouse gas (GHG) emissions caused by an individual, event, organization, service, place or product, expressed as carbon dioxide equivalent (CO2e).",
-		icon_path="D:\CarbonFootPrint\images\co2Print.ico",
+		icon_path=".\images\co2Print.ico",
 		duration=12,
 		threaded=False,
 		callback_on_click=openSettings
