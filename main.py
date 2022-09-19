@@ -10,7 +10,6 @@ from SustainabilityPage import *
 from Repository import *
 if __name__ == '__main__':
 	data=ConnectRegistery();
-	print(data);
 	toaster = ToastNotifier()
 	toaster.show_toast(
 		"**Your Carbon foot print!!",
