@@ -1,5 +1,5 @@
-import subprocess
+import os
 
 def openSettings():
-    subprocess.Popen([r"C:\Windows\System32\DpiScaling.exe"])
+ os.system("start ms-settings:accounts")
 
