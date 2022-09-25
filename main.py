@@ -11,10 +11,10 @@ if __name__ == '__main__':
 	# data=ConnectRegistery();
 	toaster = ToastNotifier()
 	toaster.show_toast(
-		title="CarbonTec"
-		"**Your Carbon foot print!!",
+		title="CarbonTec",
+		msg="Carbon Footprints report is ready. Click here for details and tips!",
 		icon_path=".\images\CarbonTecLogo.ico",
-		duration=12,
+		duration=20,
 		threaded=False,
 		callback_on_click=openSettings
 		 )

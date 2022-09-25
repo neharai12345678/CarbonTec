@@ -1,5 +1,5 @@
 import os
 
 def openSettings():
- os.system("start ms-settings:accounts")
+ os.system("start ms-settings:accounts\sustainability")
 
